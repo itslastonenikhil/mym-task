@@ -7,7 +7,7 @@ const User = require('../models/User'); // Adjust the path as needed
 
 
 const router = express.Router();
-const CLIENT_URL = "http://localhost:3000/";
+const CLIENT_URL = "https://mym-task-client-vert.vercel.app/";
 
 router.get("/", (req, res)=>{
   res.send("test auth")

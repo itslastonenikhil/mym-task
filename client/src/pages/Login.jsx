@@ -64,7 +64,7 @@ function LoginPage() {
 
   if(redirect === true){
     // console.log("navigating to homepage")
-    window.open("http://localhost:3000", "_self");
+    window.open("https://mym-task-client-vert.vercel.app/", "_self");
   }
   return (
     <div className="login-page">
