@@ -10,7 +10,7 @@ const router = express.Router();
 const CLIENT_URL = "https://mym-task-client-vert.vercel.app/";
 
 router.get("/", (req, res)=>{
-  res.send("test auth 1")
+  res.send("test auth 2")
 })
 
 router.get("/login/success", (req, res) => {

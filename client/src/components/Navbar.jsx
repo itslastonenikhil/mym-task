@@ -10,7 +10,7 @@ const Navbar = ({user}) => {
     <>
     <div className='navbar'>
         <span className='logo'><Link className="link" to="/">
-          MYM
+          MYM.
         </Link></span>
         {user ? (
         <ul className="list">
