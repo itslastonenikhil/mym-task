@@ -13,7 +13,7 @@ function Register() {
     const data = { username, password };
 
     try {
-      const response = await fetch('`${process.env.REACT_APP_API_URL}/auth/register`', {
+      const response = await fetch("https://mym-task-ruby.vercel.app//auth/register", {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -11,7 +11,7 @@ function LoginPage() {
 
   const navigate = useNavigate();
   const google = () => {
-    window.open("http://localhost:5000/auth/google", "_self");
+    window.open("https://mym-task-ruby.vercel.app/auth/google", "_self");
   };
 
   const handleLogin = async (e) => {
@@ -21,7 +21,7 @@ function LoginPage() {
     const data = { username, password };
 
     try {
-      const response = await fetch('http://localhost:5000/auth/login', {
+      const response = await fetch('https://mym-task-ruby.vercel.app/auth/login', {
         method: 'POST',
         withCredentials: true,
         credentials: 'include',
